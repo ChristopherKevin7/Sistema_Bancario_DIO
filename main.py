@@ -9,7 +9,7 @@ menu = """
 
 saldo = 0
 limite_saque = 500
-extrato = "Saldo atual: Extrato:\n\n"
+extrato = "Extrato:\n\n"
 numero_saques = 0
 LIMITE_SAQUES = 3
 
