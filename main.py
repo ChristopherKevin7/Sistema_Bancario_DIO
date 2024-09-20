@@ -9,7 +9,7 @@ menu = """
 
 saldo = 0
 limite_saque = 500
-extrato = "Extrato:\n\n"
+extrato = "Saldo atual: Extrato:\n\n"
 numero_saques = 0
 LIMITE_SAQUES = 3
 
@@ -24,6 +24,7 @@ def saque(saldo, valor):
     return saldo
 
 def exibir_extrato(extrato):
+    extrato += f"Saldo atual: R${saldo:.2f}"
     print(extrato)
 
 while True:
