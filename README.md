@@ -30,12 +30,12 @@ As diferentes versões dos desafios e implementações estão organizadas em bra
 
 2. Trocar para uma branch específica:
 
-```bash
+   ```bash
    git checkout nome-da-branch
    ```
 
-bash
-```bash
+   Por exemplo:
+   ```bash
    git checkout otimizacao1
    ```
 
