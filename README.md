@@ -18,6 +18,27 @@ Durante o desenvolvimento, você terá a oportunidade de aplicar conceitos funda
 2. **Saque**: Permite ao usuário retirar valores da conta, com limites definidos.
 3. **Extrato**: Exibe um histórico completo das transações realizadas, mostrando os depósitos, saques e o saldo atual.
 
+## Organização dos Desafios
+As diferentes versões dos desafios e implementações estão organizadas em branches separadas no repositório Git. Cada branch representa uma fase ou desafio específico do projeto. Para acessar as versões dos desafios, você pode alternar entre as branches conforme necessário.
+
+### Como alternar entre branches:
+1. Listar as branches disponíveis:
+
+   ```bash
+   git branch -a
+   ```
+
+2. Trocar para uma branch específica:
+
+```bash
+   git checkout nome-da-branch
+   ```
+
+bash
+```bash
+   git checkout otimizacao1
+   ```
+
 ## Tecnologias Utilizadas
 
 - **Python 3.x**: A linguagem de programação utilizada para implementar o sistema bancário.
